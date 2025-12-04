@@ -2,22 +2,26 @@ ul,
 il {
     list-style: none;
 }
+
 a {
-  color: inherit;       /* or use your own color */
-  text-decoration: none;
+    color: inherit;
+    /* or use your own color */
+    text-decoration: none;
 }
+
 button {
-  all: unset;
-  display: inline-block;
-  cursor: pointer;
-  padding: 0;
-  margin: 0; 
-  background: none;
-  border: none; 
-  font: inherit;
-  color: inherit; 
-  text-align: inherit; 
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
 }
+
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -105,51 +109,110 @@ button {
     font-family: "Lexend Deca", sans-serif;
     transition: 0.2s;
 }
-.boxOfShow{
+
+.boxOfShow {
     margin-top: 40px;
     padding: 20px 20px;
     background: rgb(223, 213, 213);
     width: 300px;
     border-radius: 30px;
 }
-.forBoxFlex{
+
+.forBoxFlex {
     justify-content: space-evenly;
 }
-.textForIn{
+
+.textForIn {
     font-weight: 600;
     font-family: "Lexend Deca", sans-serif;
     text-align: left;
 }
-.inText1{
+
+.inText1 {
     text-align: left;
     font-weight: 300;
     font-size: 16px;
     font-family: "Lexend Deca", sans-serif;
 }
+
 /* Home part */
 
 /* about part  */
-.about{
+.about {
     padding: 100px 0;
 }
-.pagiNation{
+
+.pagiNation {
     font-family: "Outfit", sans-serif;
     font-weight: 500;
 }
-.infoAbout{
+
+.infoAbout {
     font-family: "Outfit", sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
-.pagiNation2{
+
+.pagiNation2 {
     font-family: "Outfit", sans-serif;
     font-weight: 500;
     text-align: right;
 }
-.infoAbout2{
-     font-family: "Outfit", sans-serif;
+
+.infoAbout2 {
+    font-family: "Outfit", sans-serif;
     font-size: 30px;
     font-weight: 300;
     text-align: right;
 }
+
 /* about part  */
+
+/* Event part  */
+.events {
+    padding-top: 100px 0;
+}
+.pad2{
+    padding: 80px 0;
+}
+.textOfEvent1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.textOfEvent2 {
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: 200;
+    width: 750px;
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.boxOfEvent {
+    width: 412px;
+    background: rgb(209, 196, 196);
+}
+
+.imgEvent {
+    max-width: 100%;
+}
+
+.padInText {
+    padding: 20px;
+}
+
+.textEve2 {
+    font-weight: 600;
+    font-family: "Lexend Deca", sans-serif;
+}
+.textEve3{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Lexend Deca", sans-serif;
+}
+.overFlow{
+    overflow: hidden;
+}
+/* Event part  */
