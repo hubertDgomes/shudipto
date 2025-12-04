@@ -5,5 +5,5 @@ home.addEventListener("click", ()=>{
     window.location.href = "./index.html"
 })
 about.addEventListener("click", ()=>{
-    window.location.href = "about.html"
+    window.location.href = "/AllHTMLFiles/about.html"
 })
