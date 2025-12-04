@@ -1,0 +1,144 @@
+ul,
+il {
+    list-style: none;
+}
+a {
+  color: inherit;       /* or use your own color */
+  text-decoration: none;
+}
+button {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0;
+  margin: 0; 
+  background: none;
+  border: none; 
+  font: inherit;
+  color: inherit; 
+  text-align: inherit; 
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.logoSize {
+    width: 150px;
+}
+
+.flexForNav {
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    transition: 1s;
+}
+
+.hoverForNav:hover {
+    font-size: 22px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+/* Home part */
+.bg1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.innerPadding {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.homeText {
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.text1 {
+    font-size: 60px;
+}
+
+.text2 {
+    font-size: 20px;
+    text-align: right;
+    font-weight: 200;
+}
+
+.flexForBtn {
+    margin-top: 30px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btnForHome {
+    padding: 20px;
+    background: wheat;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+}
+
+.btnForHome:hover {
+    background: black;
+    border: 2px solid black;
+    color: wheat;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: "Lexend Deca", sans-serif;
+    transition: 0.2s;
+}
+.boxOfShow{
+    margin-top: 40px;
+    padding: 20px 20px;
+    background: rgb(223, 213, 213);
+    width: 300px;
+    border-radius: 30px;
+}
+.forBoxFlex{
+    justify-content: space-evenly;
+}
+.textForIn{
+    font-weight: 600;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: left;
+}
+.inText1{
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Lexend Deca", sans-serif;
+}
+/* Home part */
+
+/* about part  */
+.about{
+    padding: 100px 0;
+}
+.pagiNation{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
+.infoAbout{
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+/* about part  */
