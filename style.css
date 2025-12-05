@@ -420,7 +420,19 @@ button {
     .flex2{
         flex-direction: column;
     }
-
+    /* Member  */
+   .textCenter {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+    /* Member  */
 }
 
 @media (max-width: 768px) {}
