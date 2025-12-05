@@ -315,6 +315,7 @@ button {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        text-align: center;
     }
 
     .pointer {
@@ -323,11 +324,12 @@ button {
 
     .logoSize {
         width: 100px;
+        margin-left: 42px;
     }
 
     .flexForNav {
         gap: 8px;
-        font-size: 10px;
+        font-size: 20px;
         font-weight: 500;
         font-family: "Outfit", sans-serif;
         /* transition: 1s; */
