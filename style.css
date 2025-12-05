@@ -172,9 +172,11 @@ button {
 .events {
     padding-top: 100px 0;
 }
-.pad2{
+
+.pad2 {
     padding: 80px 0;
 }
+
 .textOfEvent1 {
     font-size: 40px;
     text-align: center;
@@ -207,12 +209,94 @@ button {
     font-weight: 600;
     font-family: "Lexend Deca", sans-serif;
 }
-.textEve3{
+
+.textEve3 {
     font-weight: 400;
     font-size: 16px;
     font-family: "Lexend Deca", sans-serif;
 }
-.overFlow{
+
+.overFlow {
     overflow: hidden;
 }
+
 /* Event part  */
+
+/* member part  */
+.member {
+    padding: 100px 0;
+}
+
+.fontOfHeadInMember {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.fontOfHeadInMember2 {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.ULofmember {
+    list-style-type: disc;
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.padding2 {
+    padding-top: 30px;
+    text-align: right;
+}
+
+.ULofmember2 {
+    list-style-type: disc;
+    text-align: right;
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    direction: rtl;
+}
+
+.textCenter {
+    text-align: center;
+     font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    width: 1027px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.formHead{
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 40px;
+}
+.formUP{
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+}
+.elementOfForm{
+    padding: 10px 10px;
+    width: 300px;
+    margin: 20px 0;
+}
+.textRed{
+    color: red;
+}
+.btn{
+    padding: 20px;
+    background: #000;
+    color: wheat;
+    font-family: "Lexend Deca", sans-serif;
+}
+/* member part  */

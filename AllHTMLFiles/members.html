@@ -22,42 +22,122 @@
             </div>
             <div class="">
                 <ul class="flex flexForNav">
-    <a href="../index.html">
-        <li class="pointer hoverForNav">Home</li>
-    </a>
-    
-    <a href="about.html">
-        <li class="pointer hoverForNav">About</li>
-    </a>
-    
-    <a href="events.html">
-        <li class="pointer hoverForNav">Events</li>
-    </a>
-    
-    <a href="members.html">
-        <li class="pointer hoverForNav">Members/Join</li>
-    </a>
-    
-    <a href="resources.html">
-        <li class="pointer hoverForNav">Resources</li>
-    </a>
-    
-    <a href="gallery.html">
-        <li class="pointer hoverForNav">Gallery</li>
-    </a>
-    
-    <a href="contact.html">
-        <li class="pointer hoverForNav">Contact</li>
-    </a>
-</ul>
+                    <a href="../index.html">
+                        <li class="pointer hoverForNav">Home</li>
+                    </a>
+
+                    <a href="about.html">
+                        <li class="pointer hoverForNav">About</li>
+                    </a>
+
+                    <a href="events.html">
+                        <li class="pointer hoverForNav">Events</li>
+                    </a>
+
+                    <a href="members.html">
+                        <li class="pointer hoverForNav">Members/Join</li>
+                    </a>
+
+                    <a href="resources.html">
+                        <li class="pointer hoverForNav">Resources</li>
+                    </a>
+
+                    <a href="gallery.html">
+                        <li class="pointer hoverForNav">Gallery</li>
+                    </a>
+
+                    <a href="contact.html">
+                        <li class="pointer hoverForNav">Contact</li>
+                    </a>
+                </ul>
             </div>
         </div>
         <!-- Navbar part -->
 
-        <h1>This is Member part</h1>
+        <!-- Member part -->
+        <div class="member">
+            <p class="textCenter">“Joining the CIS Club helps you grow your skills, connect with like-minded students,
+                and explore new opportunities in the world of computing. Become a part of a community that learns,
+                builds, and achieves together.”</p>
+            <h1 class="fontOfHeadInMember">Welcome to the member management system.</h1>
+            <p class="fontOfHeadInMember2">
+                Here is the benefits that's a memeber of CIS will get
+            </p>
+            <ul class="ULofmember">
+                <li>Access to exclusive workshops and seminars</li>
+                <li>Priority registration for events</li>
+                <li>Networking with seniors and faculty</li>
+                <li>Access to study materials and project resources</li>
+                <li>Chance to join organizing teams and gain leadership experience</li>
+            </ul>
+
+            <div class="padding2">
+
+                <h1 class="fontOfHeadInMember">Here is what you need to join in CIS club</h1>
+                <p class="fontOfHeadInMember2">
+                    Here is the benefits that's a memeber of CIS will get
+                </p>
+                <ul class="ULofmember2">
+                    <li>Must be a student of the CIS Department</li>
+                    <li>Must fill out the online join form</li>
+                    <li>Must follow club rules and maintain discipline</li>
+                </ul>
+            </div>
+
+            <!-- //////////////// -->
+             <h1 class="formHead">Fill the form to join CIS Club</h1>
+             <form id="formId" class="formUP">
+                <label for="">Enter your email</label>
+                <br>
+                <input type="email" placeholder="Enter your email" class="elementOfForm email">
+
+                <span class="textRed emailError"></span>
+
+                <br>
+                <label for="">Enter your name</label>
+
+                
+
+                <br>
+                <input type="name" placeholder="Enter your name" class="elementOfForm name">
+
+                <span class="textRed nameError"></span>
+
+                <br>
+                <label for="">Enter you ID number</label>
+                <br>
+                <input type="number" placeholder="Enter your ID number" class="elementOfForm id">
+
+                <span class="textRed idError"></span>
+
+                <br>
+                <label for="">Date of birth</label>
+                <br>
+                <input type="date" placeholder="Date of bith" class="elementOfForm date">
+
+                <span class="textRed dateError"></span>
+
+                <br>
+
+                <label for="">Tell us why you wants to join in CIS club</label>
+                <br>
+                <textarea class="elementOfForm textarea"></textarea>
+
+                <span class="textRed areaError"></span>
+
+                <br>
+                <button class="btn">Sign up</button>
+             </form>
+            <!-- //////////////// -->
+
+        </div>
+        <!-- Member part -->
+
     </div>
     </div>
 
+
+    <script src="../app.js"></script>
 </body>
 
 </html>
