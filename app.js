@@ -61,7 +61,5 @@ formId.addEventListener("submit", (e) => {
     if(email.value && name.value && id.value && date.value && textarea.value){
         window.location.href = "signup.html"
     }
-
-
-    
 })
+
