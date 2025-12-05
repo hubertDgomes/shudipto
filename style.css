@@ -312,8 +312,9 @@ button {
 @media (max-width: 480px) {
     .flex {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 
     .pointer {
