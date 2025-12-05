@@ -417,22 +417,38 @@ button {
         font-size: 16px;
         font-family: "Lexend Deca", sans-serif;
     }
-    .flex2{
+
+    .flex2 {
         flex-direction: column;
     }
+
     /* Member  */
-   .textCenter {
-    text-align: center;
-    font-family: "Outfit", sans-serif;
-    font-size: 20px;
-    width: 400px;
-    margin: 0 auto;
-    padding: 30px;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-bottom: 40px;
-}
+    .textCenter {
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-size: 20px;
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+    .gap2{
+        gap: 40px;
+    }
     /* Member  */
+    /* event */
+    .textOfEvent2 {
+        font-size: 20px;
+        margin: 0 auto;
+        font-weight: 200;
+        width: 400px;
+        text-align: center;
+        font-family: "Lexend Deca", sans-serif;
+    }
+
+    /* event */
 }
 
 @media (max-width: 768px) {}
