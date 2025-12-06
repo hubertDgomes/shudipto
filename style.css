@@ -307,6 +307,47 @@ button {
 
 /* member part  */
 
+/* resources part  */
+.resources {
+    padding: 100px 0;
+}
+
+/* resources part  */
+
+/* contact part */
+.contact {
+    padding: ;
+}
+
+/* contact part */
+.conT1 {
+    font-size: 50px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.conT2 {
+    font-size: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+}
+
+.conT3 {
+    font-size: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.conT4 {
+    font-size: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.conT5 {
+    font-size: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
 
 /* Responsive part */
 @media (max-width: 480px) {
@@ -434,9 +475,11 @@ button {
         border-radius: 20px;
         margin-bottom: 40px;
     }
-    .gap2{
+
+    .gap2 {
         gap: 40px;
     }
+
     /* Member  */
     /* event */
     .textOfEvent2 {
@@ -449,6 +492,45 @@ button {
     }
 
     /* event */
+    /* contat part */
+    .contact{
+        padding: 100px 0;
+    }
+    .conT1 {
+        font-size: 30px;
+        font-family: "Lexend Deca", sans-serif;
+        text-align: center;
+    }
+
+    .conT2 {
+        font-size: 30px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .conT3 {
+        font-size: 30px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .conT4 {
+        font-size: 30px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .conT5 {
+        font-size: 30px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    /* contat part */
 }
 
 @media (max-width: 768px) {}

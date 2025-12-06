@@ -7,6 +7,8 @@ $('.single-item').slick({
   speed: 500,
   fade: true,
   cssEase: 'linear',
-  arrows: false
+  arrows: false,
+  autoplay: true,
+
 });
 });
